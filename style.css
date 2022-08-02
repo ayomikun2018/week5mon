@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:hsl(212, 45%, 89%);
+    /* border:1px solid; */
+    margin-top: 80px;
+    margin-left: 350px;
+    margin-bottom: 80px;
+    margin-right: 350px;
+    height: 660px;
+    width: 50%;
+    padding-top: 20px;
+    /* text-align: center; */
+}
+.inner-container{
+    /* border:1px solid; */
+    background-color: white;
+    width: 57%;
+    /* height: 80%;  */
+    margin-top: 25px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 20px;
+    /* padding-left: 20px; */
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 7px 19px 0px rgba(50, 50, 50, 0.22);
+   -moz-box-shadow:    0px 7px 19px 0px rgba(50, 50, 50, 0.22);
+   box-shadow:         0px 7px 19px 0px rgba(50, 50, 50, 0.22);
+}
+.card-img{
+    height: 380px;
+    width: 350px;
+    /* margin-top: 25px; */
+    /* margin-right: 100px; */
+    /* margin-left: 90px;
+    padding: 30px; */
+    border-radius: 10px;
+}
+.text-container{
+    width: 300px;
+    /* padding-top: */
+    /* padding-left: 90px;
+    padding-right:60px;  */
+    margin-left: 50px;
+    /* border: 1px solid; */
+    font-family: 'Outfit', sans-serif;
+    /* text-align: center; */
+    
+}
+.card-header{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: hsl(218, 44%, 22%);
+    /* text */
+}
+.card-paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    color: hsl(220, 15%, 55%);
+}
